@@ -1,0 +1,18 @@
+15-8-2022  4:00pm   to 5:00PM             1Hour
+16-08-2022  12:10AM to 3:33AM 		3.5hours
+16-08-2022 4:00PM to 5:00PM			1Hour
+17-08-2022 12:10Am to 3:12Am			3HOurs 
+
+Now it's ready with in 8.5 Hours.
+Thank you
+
+Number of line of code:
+style 	339
+index 	54
+about		47
+book		63
+Contact	61
+gallery	52
+service	50
+Total all lines 666
+tried to as minimum lines as possible.

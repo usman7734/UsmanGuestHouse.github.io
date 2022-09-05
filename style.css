@@ -1,0 +1,349 @@
+
+            *{
+                margin: 0px;
+                padding: 0px;
+                /* border: 2px solid red; */
+                font-family: Arial, Helvetica, sans-serif;
+                /* font-family: 'Times New Roman', Times, serif; */
+            }
+            #navi{
+                background-color: green;
+
+            }
+            #navi .nav{
+                display: inline-block;
+                padding:10px;
+                font-size: 20px;
+                font-weight: bolder;
+                color: gold;
+                margin: 10px;
+                cursor:pointer;
+                text-decoration: none;
+            }
+            /* @keyframes navchange {
+                from{background-color: green;}
+                to{background-color: black;}
+                
+            } */
+
+            #navi .nav a{
+                text-decoration: none;
+                color: gold;
+            }
+            #navi .hnav:hover{
+                background-color: white;
+                border-radius: 20px;
+                /* transition-name:navchange; */
+                transition-duration: 2s;
+                color:chocolate;
+                /* animation-name: navchange; */
+            }
+            #navi .main{
+                color: black;
+                cursor:context-menu;
+            }
+
+            /* body{
+                background-image: url(photos/bg.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-attachment: fixed;
+            } */
+
+            #heading{
+                color: white;
+                margin-top: 8%;
+                margin-left: 25%;
+                font-size: 50px;
+            }
+
+            #slogan{
+                color: white;
+                font-size: 20px;
+                margin-left: 35%;
+                font-weight: bold;
+            }
+
+            #bookBtn{
+                /* text-decoration: none; */
+                height: 50px;
+                width: 200px;
+                border: 2px solid brown;
+                background-color:rgb(70, 233, 70);
+                /* font-size: 20px; */
+                /* color: white; */
+                border-radius: 50px;
+                margin-top: 20%;
+                margin-left: 40%;
+            }
+            #bookBtn:hover{
+                background-color: green;
+                transition-duration: 1s;
+                border: 3px solid gold;
+            }
+            #bookBtn a{
+                text-decoration:none;
+                font-size: 25px;
+                color: white;
+                padding: 30px;
+                /* padding-left: 50%; */
+                line-height: 1px;                
+            }
+            #bookBtn a:hover{
+                color: gold;
+                font-weight: bold;
+            }
+
+            footer{
+                background-color: rgb(58, 57, 57);
+                height: 200px;
+                margin-top: 150px;
+                border-top: 20px solid white;
+            }
+             footer div{
+                color: gold;
+                margin-left: 150px;
+                margin-bottom: 15px;
+             }
+             footer div a{
+                text-decoration: none;
+                color: gold;
+                /* margin-left: 150px; */
+             }
+             #footername{
+                font-weight: bold;
+                font-size: 25px;
+                color: aliceblue;
+                margin-top: 10px;
+             }
+
+             #connect{
+                margin-left: 75%;
+                margin-top: -140px;
+                /* margin-right: 50px; */
+             }
+             #connect img{
+                margin-right: 15px;
+             }
+             #connect img:hover{
+                /* height: 60px; */
+                transform: scale(1.5);
+             }
+             #social{
+                /* margin-top: -20px; */
+                margin-left: 100px
+             }
+
+
+             /* about.html ka style */
+             /* =====================> */
+             #aboutTag{
+                color:gray;
+                text-transform: uppercase;
+                margin-left: 500px;
+                margin-top: 100px;
+                
+            }
+            #aboutDetail{
+                color:black;
+                margin: 20px 200px;
+                font-size: 25px;
+                font-family: 'Times New Roman', Times, serif;
+                
+            }
+            #aboutPoint li{
+                list-style-type:disc;
+                margin-left: 250px;
+                font-size: 25px;
+                
+
+            }
+
+
+            /* service.html ka style */
+            /* =============> */
+            #serviceBody{
+                background-color: rgb(239, 237, 237);
+            }
+                
+            #serviceHeading{
+                color: grey;
+                margin: 20px 350px;
+            }
+
+            #serviceImg img{
+                width: 800px;
+                margin-left: 350px;
+                border-radius: 20px;
+            }
+            .serviceText{
+                font-size: 20px;
+                margin-left:350px ;
+                margin-right: 370px;
+                background-color: white;
+                border-radius: 20px;
+                margin-bottom: 40px;
+            }    
+
+/* Gallery ka css
+==================> */
+            #galleryImg{
+                color:gray;
+                margin-left: 7%;
+            }
+
+            .galleryPhotoimg{
+                height: 210px;
+                border: 2px solid gray;
+                border-radius: 10px;
+                margin: 3px;
+
+            }
+            #galleryFirstImg{
+                height: 500px;
+                width: 900px;
+                border: 3px solid gray;
+                border-radius: 10px;
+
+            }
+            #galleryFirstImg:hover{
+                transform: scale(1.03);
+            }
+            .galleryPhotoimg:hover{
+                transform: scale(1.05);
+            }
+    
+
+/* Book.html ka css is here */
+/* ======================> */
+
+#bookBody{
+    background-image: url(../photos/eighth.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#bookNow{
+    width: 60%;
+    background-color: black;
+    opacity: 60%;
+    margin-left: 20%;
+    margin-top: 5%;
+    border-radius: 20px;
+}
+
+#bookNow h1{
+    color: white;
+    margin-left: 40%;
+}
+.bookText{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-left: 7%;
+    line-height: 40px;
+    /* margin-bottom: 30px; */
+    
+}
+
+.bookInput{
+     background-color: black;
+     opacity: 60%;
+     border: 2px solid gold;
+     width: 40%;
+     height: 30px;
+     border-radius: 10px;
+     font-size: 20px;
+     color: gold;
+     opacity: 1;
+     
+}
+.bookInput::placeholder{
+    color: white;
+    font-size: 15px;
+    /* margin-left: 100px; */
+}
+#bookSubmit{
+    height: 50px;
+    background-color: gold;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    /* opacity:2; */
+    font-size: 30px;
+    border-radius: 10px;
+    border: 5px solid black;
+    /* opacity: 1; */
+    cursor: pointer;
+
+
+}
+#bookSubmit:hover{
+    background-color: black;
+    /* opacity: 2; */
+    transition-duration: 1s;
+    color: gold;
+    border: 5px solid gold;
+}
+
+
+/* ContactUs.html ka style
+===================>>>>>>> */
+
+#contactUs h1{
+    color: gray;
+    margin-left: 10%;
+    margin-top: 20px;
+
+}
+#contactUs p{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#contactMail{
+    margin-left: 35%;
+    margin-top: -120px;
+    line-height: 30px;
+}
+#contactMail a{
+    text-decoration: none;
+    color: black;
+}
+#contactMail img{
+    margin-left: 10%;
+    margin-top: -40px;
+}
+#contactMobile{
+    margin-left: 10%;
+    margin-top: 50px;
+    line-height: 30px;
+}
+#contactMobile img{
+    margin-left: 150px;
+    margin-top: -80px;
+}
+#contactAddress{
+    margin-left: 70%;
+    margin-top: -100px;
+    line-height: 30px;
+}
+#contactAddress img{
+    margin-left: 80px;
+    margin-top: -60px;
+}
+
+
+
+@media(max-width:800px) 
+{
+    #heading{
+        color: blue;
+    }
+    
+}
